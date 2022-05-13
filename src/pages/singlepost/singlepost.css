@@ -1,0 +1,113 @@
+.singlePostStyle {
+    background-image: linear-gradient(to right, #417D7A, #417D7A);
+    color: #fff;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 50px;
+    box-shadow: -7px -4px 13px 0px rgba(209, 191, 191, 0.94);
+    -webkit-box-shadow: -7px -4px 13px 0px rgba(209, 191, 191, 0.94);
+    -moz-box-shadow: -7px -4px 13px 0px rgba(209, 191, 191, 0.94);
+    border-radius: 10px;
+}
+
+.singlePostStyle>h2 {
+    margin-bottom: 10px;
+}
+
+.singleAuthContainer {
+    margin-bottom: 25px;
+}
+
+.singleImgStyle {
+    width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+}
+
+.pText {
+    margin-top: 20px;
+    color: #F4FCD9;
+    line-height: 40px;
+    font-size: 20px;
+
+}
+
+.authorNameStyle {
+    margin-left: 5px;
+    font-size: 20px;
+}
+
+.commentContainer {
+
+    margin-top: 30px;
+    background-color: #fff;
+}
+
+.btnDiv {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.commentBtn {
+    background-color: tomato;
+    color: #fff;
+    padding: 12px 25px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+    outline: none;
+    border: none;
+}
+
+.cmntWrapper {
+    background-color: aqua;
+    margin: 15px 0;
+    color: black;
+
+}
+
+.commentProfile {
+    display: flex;
+    align-items: center;
+
+}
+
+.commentProfile>img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.commentProfile>h4 {
+    margin-left: 8px;
+    color: black;
+}
+
+.comments {
+    padding: 10px 40px;
+    background-color: #fff;
+    border-bottom: 4px solid tomato;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cText {
+    font-size: 16px;
+    line-height: 25px;
+
+}
+
+.dateP {
+    font-size: 12px;
+    margin-top: 6px;
+    color: gray;
+}
+
+.cmntDel {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: red;
+}

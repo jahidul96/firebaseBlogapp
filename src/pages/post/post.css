@@ -1,0 +1,64 @@
+.postContainer {
+    max-width: 370px;
+    margin: 120px auto;
+    background-image: linear-gradient(to right, #417D7A, #A1E3D8);
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    justify-content: center;
+    padding: 50px;
+}
+
+.h2title {
+    text-align: center;
+    font-size: 26px;
+    color: white;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+input {
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 8px 10px;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+textarea {
+    min-width: 100%;
+    min-height: 100px;
+    padding: 10px;
+    overflow-y: hidden;
+    outline: none;
+    border-radius: 5px;
+    margin: 10px 0;
+    border: none;
+}
+
+.btnDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.postBtn {
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    border: none;
+    border-radius: 5px;
+    color: #000;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+
+.fileBtn {
+    background-color: #fff;
+
+
+}

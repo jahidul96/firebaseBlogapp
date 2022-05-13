@@ -1,0 +1,87 @@
+.homeFlexRoot {
+    max-width: 700px;
+    margin: 30px auto;
+    padding: 0px 20px;
+    min-height: 80vh;
+}
+
+.deleteFlex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.deleteBtn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.descText {
+    margin-top: 20px;
+}
+
+/* .perPostStyle {
+    width: auto;
+    height: auto;
+    background-image: linear-gradient(to right, #417D7A, #A1E3D8);
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    margin-bottom: 20px;
+    padding: 20px 50px;
+}
+
+.postTop {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.postTop>h2 {
+    font-size: 22px;
+    color: #fff;
+    background-color: tomato;
+    padding: 5px 10px;
+    border-radius: 5px;
+} */
+
+
+
+
+/* .authorContainer {
+    margin-bottom: 30px;
+    margin-top: 8px;
+}
+
+.authorContainer>span {
+    margin-left: 12px;
+}
+
+.authorContainer>p {
+    margin-top: 6px;
+} */
+
+.socialIconContainer {
+    position: fixed;
+    top: 150px;
+    right: 0px;
+    background-image: linear-gradient(to right, #000, yellow);
+    padding: 15px 5px;
+}
+
+.socialIconContainer>span {
+    display: block;
+    padding: 15px 5px;
+    color: #fff;
+}
+
+/* .postImgStyle {
+    width: 100%;
+    max-height: 400px;
+    object-fit: contain;
+    margin: 10px auto;
+    padding-left: 10px;
+    margin-bottom: 30px;
+} */
